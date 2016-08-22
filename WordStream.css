@@ -1,0 +1,225 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	/*outline: 1px dotted black;*/
+}
+#main_container{
+	width: 970px;
+	height: 1000px;
+}
+#main_menu{
+	width: 530px;
+	height: 25px;
+	margin-left: 350px;
+	border-radius: 5px;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	border-bottom: 1px solid gray;
+	background-color: ghostwhite;
+}
+div#main_menu ol li{
+	display: inline-block;
+	list-style-type: none;
+	padding: 5px;
+	font-size: 13px;
+}
+#login_button{
+	width: 50px;
+	height: 13px;
+	background-color: royalblue;
+	color: white;
+	font-size: 12px;
+	margin: 2px 350px 5px 20px;
+	display: inline-block;
+	vertical-align: top;
+	border-radius: 5px;
+	padding: 5px;
+	text-align: center;
+}
+#logo{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+#wordstream{
+	width: 500px;
+	font-size: 35px;
+	margin: 10px 5px;
+}
+.gray{
+	color: gray;
+}
+.blue{
+	color: royalblue;
+}
+.ghost{
+	color: ghostwhite;
+}
+.normalblue{
+	color: blue;
+}
+.orange{
+	color: orange;
+}
+.background-blue{
+	background-color: royalblue;
+}
+.background-orange{
+	background-color: orange;
+}
+.gradient-orange{
+	background: -webkit-linear-gradient(gold, orange);
+}
+.gradient-blue{
+	background: -webkit-linear-gradient(deepskyblue, royalblue);
+}
+#blue_banner{
+	width: 970px;
+	height: 50px;
+	color: white;
+	font-size: 30px;
+	padding: 10px;
+	margin-left: 5px;
+	background-color: royalblue;
+	margin-bottom: 30px;
+}
+#left_nav{
+	width: 250px;
+	height: 650px;
+	margin-right: 20px;
+	margin-top: 60px;
+	margin-left: 20px;
+	background-color: white;
+}
+#contact_us{
+	background-color: white;
+	width: 686px;
+	height: 80px;
+}
+#home_button_area{
+	width: 500px;
+	height: 50px;
+	background-color: white;
+	margin-left: 5px;
+}
+#contact_info{
+	width: 170px;
+	height: 80px;
+	background-color: white;
+}
+div#phone,
+div#home_button_area,
+div#left_nav,
+div#contact_info,
+div#days_numbers,
+div#ppc,
+div#topic_container,
+div#content_ad,
+div#content_ad_details,
+div#main_menu,
+div#logo,
+div#wordstream{
+	display: inline-block;
+	vertical-align: top;
+}
+.contact_style{
+	color: gray;
+	font-size: 10px;
+	padding-bottom: 5px;
+}
+.local_number{
+	color: royalblue;
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+#ppc{
+	background-color: white;
+	width: 686px;
+	height: 300px;
+
+}
+#topic_container{
+	width: 686px;
+	height: 500px;
+}
+.link{
+	color: royalblue;
+	text-decoration: underline;
+}
+div#ppc ul li{
+	list-style-type: none;
+	margin-bottom: 5px;
+}
+h3, h4, p{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+li{
+	margin-left: 30px;
+}
+#drive_profits{
+	width: 676px;
+	height: 150px;
+	background-color: white;
+	border: 5px solid deepskyblue;
+}
+#GetStartedButton{
+	width: 150px;
+	height: 30px;
+	background: -webkit-linear-gradient(darkgreen, yellow);
+	color: white;
+	border-radius: 10px;
+}
+#content_ad_details{
+	width: 600px;
+	height: 100px;
+	background-color: white;
+}
+.button{
+	width: 200px;
+	height: 22px;
+	color: white;
+	border-radius: 3px;
+	margin-bottom: 7px;
+	padding: 5px;
+	text-align: center;
+}
+#measure{
+	width: 200px;
+	height: 300px;
+	margin-top: 10px;
+	background-image: url("left_content_ad.png");
+	background-repeat: no-repeat;
+	background-size: 200px 300px;
+}
+#measure_text{
+	width: 200px;
+	height: 140px;
+	padding: 2px;
+	margin: 6px;
+}
+#get_graded{
+	width: 160px;
+	height: 25px;
+	margin-left: 10px;
+	padding: 3px;
+	color: white;
+	border: blue;
+	border-radius: 2px;
+	background: -webkit-linear-gradient(royalblue, dodgerblue);
+}
+.creditcard{
+	font-size: 15px;
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+/*http://www.evotech.net/blog/2007/05/controlling-list-item-bullets-with-css/*/
+ul{
+	text-indent: -12px;
+}
+div#ppc ul li:before{
+	color: royalblue;
+	content: "\25A0 \0020";
+}
+div#ppc ul li{
+	list-style-type: none;
+}

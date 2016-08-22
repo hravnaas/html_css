@@ -1,0 +1,60 @@
+div{
+	border-radius: 20px;
+}
+
+ul.fakelinkwithunderscore li{
+	margin-bottom: 10px;
+}
+
+ul.fakelinkwithunderscore li span{
+	color: blue;
+	text-decoration: underline;
+}
+
+ul.fakelinknounderscore li span, .blue{
+	color: blue;
+}
+
+ul.fakelinknounderscore li span.clicked{
+	color: firebrick;
+}
+
+ul li{
+	margin-left: -20px;
+}
+
+.header{
+	background-color: lightgrey;
+	height: 70px;
+	width: 1000px;
+	padding: 10px;
+	margin:15px;
+}
+
+.footer{
+	width: 1000px;
+	height: 50px;
+	background-color: lightgrey;
+	padding: 10px;
+	margin: 15px;
+}
+
+.sidenav{
+	background-color: lightgrey;
+	display: inline-block;
+	padding: 10px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	width: 255px;
+	height: 350px;
+}
+
+.main{
+	background-color: darkgrey;
+	height: 400px;
+	width: 685px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 20px;
+}

@@ -1,0 +1,135 @@
+.top_container{
+	height: 100px;
+	width: 1000px;
+	background-color: ghostwhite;
+	border-bottom: 2px solid black;
+	display: inline-block;
+}
+#logo_img{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 30px;
+}
+#call_us{
+	width: 570px;
+	height: 90px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: right;
+	padding: 5px;
+}
+div#nav_buttons div{
+	width: 140px;
+	height: 25px;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 12px;
+	border-right: 1px solid black;
+	text-align: center;
+	padding: 5px;
+	background-color: ghostwhite;
+}
+div#nav_buttons div.size_short{
+	width: 20px;
+}
+div#nav_buttons div.size_medium{
+	width: 60px;
+}
+#main_container{
+	margin-top: 30px;
+	background-color: black;
+	width: 970px;
+	height: 620px;
+	padding-left: 30px;
+	padding-top: 10px;
+}
+#main_image{
+	border: 7px solid white;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+#about_stack{
+	width: 550px;
+	height: 240px;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 0px;
+}
+#about{
+	background-color: gold;
+	height: 30px;
+	width: 550px;
+	vertical-align: top;
+	margin-top: -15px;
+	padding: 0px;
+}
+#heritage{
+	width: 530px;
+	height: 221px;
+	background-color: gray;
+	color: white;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 13px;
+	padding: 10px;
+}
+#bulk_delivery{
+	width: 550px;
+	height: 20px;
+	color: orange;
+	font-size: 13px;
+	margin-bottom: 10px;
+}
+.business_area{
+	width: 218px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 5px;
+	margin-right: 20px;
+}
+.area_header{
+	background-color: gold;
+	width: 216px;
+	height: 15px;
+	padding: 3px;
+}
+.white_text{
+	background-color: white;
+	color: black;
+	width: 216px;
+	height: 125px;
+	padding: 3px;
+}
+.area_img{
+	background-color: white;
+	width: 221px;
+	height: 85px;
+}
+.readmore_section{
+	background-color: white;
+	width: 222px;
+	height: 50px;
+}
+.empty{
+	background-color: white;
+	width: 110px;
+	height: 30px;
+	display: inline-block;
+	vertical-align: top;
+}
+.readmore_button{
+	width: 85px;
+	height: 15px;
+	padding: 5px;
+	background-color: gold;
+	border-radius: 5px;
+	border-color: black;
+	border: 2px solid black;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	font-size: 10px;
+}
